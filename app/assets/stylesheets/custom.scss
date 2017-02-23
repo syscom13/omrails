@@ -1,0 +1,225 @@
+/* =============================================================================
+  RESETS
+============================================================================= */
+
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* =============================================================================
+  ROW
+============================================================================= */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* =============================================================================
+  NAVBAR
+============================================================================= */
+
+.logo {
+  font-size: 35px;
+  color: white;
+  float: left;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.main__nav {
+  float: right;
+  list-style: none;
+  margin-top: 38px;
+
+  li {
+    display: inline-block;
+    margin-left: 40px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding-bottom: 2px;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom 0.2s ease-in;
+    }
+    a:hover,
+    a:active {
+      border-bottom: 2px solid #7570FF;
+    }
+    .signup__cta {
+      color: #7570FF;
+      padding: 8px 15px;
+      border: 1px solid #7570FF;
+      border-radius: 3px;
+      transition: all 0.25s ease-in-out;
+    }
+    .signup__cta:hover {
+      color: white;
+      border: 1px solid #7570FF;
+      background-color: #7570FF;
+    }
+  }
+}
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+  .content__heading {
+    color: white;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 24px;
+  }
+  .content__teaser {
+    color: #d3cde4;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    min-height: 80px;
+    margin-bottom: 40px;
+  }
+  .content__cta {
+    display: inline-block;
+    margin: 0;
+    padding: 12px 48px;
+    color: #7570FF;
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 3px;
+    -webkit-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+  }
+  .content__cta:hover {
+    background-color: white;
+  }
+}
+
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+
+/* =============================================================================
+  ABOUT PAGE
+============================================================================= */
+
+.about__container {
+  color: white;
+  background: linear-gradient(to bottom, #080a12 0%,#282b36 100%);
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  line-height: 40px;
+  .content {
+    position: relative;
+    top: 30%;
+  }
+  p {
+    margin-top: 30px;
+  }
+}
+
+/* =============================================================================
+  CONTACT PAGE
+============================================================================= */
+
+.contact__container {
+  color: white;
+  background-image: url(top-bg@2x.png);
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  line-height: 40px;
+  .content {
+    position: relative;
+    top: 30%;
+  }
+  p {
+    margin-top: 30px;
+    a {
+      text-decoration: none;
+      color: yellow;
+    }
+  }
+}
+

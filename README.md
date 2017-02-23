@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+So I've got this super weird bug:
 
-Things you may want to cover:
+in `app/views/shared/navbar.html.erb`, uncomment the third li tag (line 7).
 
-* Ruby version
+See how it breaks the h1 directly below ? I tried to fix it with the clearfix hack and it works...
 
-* System dependencies
+except that it messes up the layout with my navbar in the About and Contact pages. Bummer.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
