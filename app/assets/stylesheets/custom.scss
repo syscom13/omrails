@@ -49,19 +49,25 @@ body {
   NAVBAR
 ============================================================================= */
 
+nav {
+  background-color: rgba(11, 12, 16, 0.85);
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin: 0;
+}
+
 .logo {
   font-size: 35px;
   color: white;
   float: left;
   font-family: 'Open Sans', 'Arial', sans-serif;
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .main__nav {
   float: right;
   list-style: none;
-  margin-top: 38px;
 
   li {
     display: inline-block;
