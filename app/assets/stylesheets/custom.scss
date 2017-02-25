@@ -49,26 +49,19 @@ body {
   NAVBAR
 ============================================================================= */
 
-nav {
-  background-color: rgba(11, 12, 16, 0.85);
-  padding-bottom: 10px;
-  padding-top: 5px;
-  margin: 0;
-}
-
 .logo {
   font-size: 35px;
   color: white;
   float: left;
   font-family: 'Open Sans', 'Arial', sans-serif;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .main__nav {
   float: right;
   list-style: none;
-
+  margin-top: 28px;
   li {
     display: inline-block;
     margin-left: 40px;
@@ -105,7 +98,7 @@ nav {
 
 .content {
   position: relative;
-  top: 30%;
+  top: 25%;
   z-index: 1;
   margin: 0 auto;
   max-width: 720px;
@@ -173,11 +166,17 @@ nav {
   background: linear-gradient(to bottom, #080a12 0%,#282b36 100%);
   background-size: cover;
   height: 100vh;
-  width: auto;
   line-height: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
   .content {
     position: relative;
-    top: 30%;
+    top: 35%;
   }
   p {
     margin-top: 30px;
@@ -193,11 +192,17 @@ nav {
   background-image: url(top-bg@2x.png);
   background-size: cover;
   height: 100vh;
-  width: auto;
   line-height: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
   .content {
     position: relative;
-    top: 30%;
+    top: 35%;
   }
   p {
     margin-top: 30px;
