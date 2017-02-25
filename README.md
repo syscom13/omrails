@@ -1,10 +1,15 @@
 # README
 
-So I've got this super weird bug:
+Officebot is a fictional SaaS startup.
 
-in `app/views/shared/navbar.html.erb`, uncomment the third li tag (line 7).
+Here are some of the services it offers:
 
-See how it breaks the h1 directly below ? I tried to fix it with the clearfix hack and it works...
+- A modern way for employees to make orders and suggestions. People in your office can make orders and suggestions in just a few clicks from a laptop, iPhone etc.
 
-except that it messes up the layout with my navbar in the About and Contact pages. Bummer.
+- An A.I-based office manager taht can easily track your projects, and seamlessly interact with your employees and vendors.
+
+- Hassle-free shopping and vendor management. Build shopping lists, review past orders, and purchase from vendors recommended by the office managers of the coolest startups in your city.
+
+- Optimize your employee budget. Use the data in Officebot to understand and anticipate the needs of your team. Keep track of spendings by vendor and type of purchase.
+
 
