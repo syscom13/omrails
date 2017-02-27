@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>One Month Rails</title>
+    <title>LOGOBOT Project</title>
     <%= csrf_meta_tags %>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700" rel="stylesheet">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <!-- Navbar -->
     <%= render "shared/navbar" %>
+    <!-- Page Content -->
     <%= yield %>
+    <!-- Footer -->
+    <%= render "shared/footer" %>
   </body>
 </html>
