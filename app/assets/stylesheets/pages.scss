@@ -3,8 +3,83 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .home {
-    background-image: url(image_path('home-bg.jpg'));
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  color: white;
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url(image_path('hero.jpg'));
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  border-radius: 0 !important;
+}
+
+.herocopy {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+h1 {
+  font-size: 2.6em;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+.button-box {
+  margin-top: 50px;
+}
+
+.button-big:link,
+.button-big:visited {
+  margin: 0 12px 30px 12px;
+  padding: 23px 30px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.button-big:hover,
+.button-big:active {
+  text-decoration: none;
+}
+
+.button-plain:link,
+.button-plain:visited {
+  border: 2px solid #3e70ff;
+  background: linear-gradient(#2083fe,#1d7bf0);
+  color: white;
+  box-shadow: rgba(31, 129, 251, 0.7) 0 3px 22px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-plain:hover,
+.button-plain:active {
+  color: white;
+  transform: scale(1.06);
+  box-shadow: #1F81FB 0 3px 22px;
+}
+
+.button-hollow:link,
+.button-hollow:visited {
+  border: 2px solid #1F80F9;
+  color: #1F80F9;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-hollow:hover,
+.button-hollow:active {
+  color: #1F80F9;
+  transform: scale(1.06);
+  box-shadow: #1F81FB 0 3px 22px;
 }

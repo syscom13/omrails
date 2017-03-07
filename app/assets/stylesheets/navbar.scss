@@ -1,0 +1,84 @@
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+.navbar-brand {
+  font-family: $logo-font;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 33px;
+  color: black !important;
+}
+
+.linkbox {
+  margin-left: 25px;
+  margin-top: 4px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: black !important;
+  font-family: $logo-font;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+
+}
+
+.button-small:link,
+.button-small:visited {
+  margin: 6px;
+  display: inline-block;
+  padding: 15px 22px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.button-small:hover,
+.button-small:active {
+  text-decoration: none;
+}
+
+.button-plain:link,
+.button-plain:visited {
+  border: 1px solid #3e70ff;
+  background: linear-gradient(#2083fe,#1d7bf0);
+  color: white !important;
+  box-shadow: rgba(31, 129, 251, 0.7) 0 1px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-plain:hover,
+.button-plain:active {
+  color: white !important;
+  transform: scale(1.02);
+  box-shadow: #1F81FB 0 1px 10px;
+}
+
+.button-hollow:link,
+.button-hollow:visited {
+  border: 1px solid #1F80F9;
+  color: #1F80F9 !important;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-hollow:hover,
+.button-hollow:active {
+  color: #1F80F9 !important;
+  transform: scale(1.02);
+  box-shadow: #1F81FB 0 1px 10px;
+}
+
