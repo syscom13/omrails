@@ -26,9 +26,18 @@
   font-size: 18px;
 }
 
-.nav-link:hover,
-.nav-link:active {
+.nav-static:link,
+.nav-static:visited {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 5px;
+  margin-right: 15px;
+  transition: all 0.25s ease-in-out;
+}
 
+.nav-static:hover,
+.nav-static:active {
+  border-bottom: 1px solid #1F80F9;
 }
 
 .button-small:link,

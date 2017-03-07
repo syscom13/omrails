@@ -3,9 +3,9 @@
   <div class="container">
     <%= link_to "Foodie", root_path, class: "navbar-brand logo" %>
     <ul class="navbar-nav mr-auto linkbox">
-      <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
-      <li class="nav-item"><%= link_to "About", about_path, class: "nav-link" %></li>
-      <li class="nav-item"><%= link_to "Contact", contact_path, class: "nav-link" %></li>
+      <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link nav-static" %></li>
+      <li class="nav-item"><%= link_to "About", about_path, class: "nav-link nav-static" %></li>
+      <li class="nav-item"><%= link_to "Contact", contact_path, class: "nav-link nav-static" %></li>
     </ul>
       <% if user_signed_in? %>
         <ul class="navbar-nav">

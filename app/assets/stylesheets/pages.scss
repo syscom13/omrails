@@ -9,11 +9,16 @@
   background-size: cover;
   height: 100vh;
   position: relative;
-  margin-bottom: 0;
 }
 
 .jumbotron {
   border-radius: 0 !important;
+  margin-bottom: 0;
+}
+
+.details {
+  text-align: center;
+  height: 100vh;
 }
 
 .herocopy {
@@ -83,3 +88,9 @@ h1 {
   transform: scale(1.06);
   box-shadow: #1F81FB 0 3px 22px;
 }
+
+.vertical-spacer {
+  height: 50px;
+}
+
+
